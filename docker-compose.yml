@@ -6,11 +6,11 @@ services:
     ports:
       - "3306:3306"
     environment:
-      - MYSQL_DATABASE='djangoproject'
-      - MYSQL_USER='nram94'
-      - MYSQL_PASSWORD='123456789'
-      - MYSQL_HOST='104.154.102.101'
-      - MYSQL_ROOT_PASSWORD='123456789'
+      - MYSQL_DATABASE='djangodocker'
+      - MYSQL_USER='admin'
+      - MYSQL_PASSWORD='Nico1973*'
+      - MYSQL_HOST='teis20251.cf8miom8ykja.us-east-1.rds.amazonaws.com'
+      - MYSQL_ROOT_PASSWORD='Nico1973*'
     volumes:
       - /tmp/code/mysqld:/var/run/mysqld
       - ./db:/var/lib/mysql
